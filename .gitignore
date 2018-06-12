@@ -9,3 +9,5 @@ build/
 .project
 .settings
 .classpath
+deploy_api.sh
+grails-app/conf/application.yml
