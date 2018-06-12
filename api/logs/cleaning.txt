@@ -1,0 +1,187 @@
+ id  | sum  | count 
+-----+------+-------
+   1 |    0 |   149
+   2 | 1414 |  1765
+  18 | 1051 |  1420
+  45 |    0 |    51
+  52 | 1911 |  2093
+  56 | 1720 |  1728
+  58 | 9549 | 12044
+  73 | 1986 |  2201
+  79 |    0 |  1890
+  80 |    0 |   166
+  81 |    0 |    13
+  82 |    0 |     2
+  83 |    0 |    50
+  84 |    0 |     8
+  85 |    0 |    69
+  86 |    0 |  1447
+  94 |    0 |   533
+  95 |    0 |   393
+  96 |    0 |  1739
+  97 |    0 |  2265
+  98 |    0 |   820
+  99 |    0 |    31
+ 100 |    0 |  4769
+ 101 |    0 |  1215
+ 102 |    0 |   741
+ 103 |    0 |  5713
+ 104 |    0 |   510
+ 105 |    0 |  1106
+ 106 |    0 |   942
+ 107 |    0 |   569
+ 108 |    0 |   934
+ 109 |    0 |    99
+ 110 |    0 |   330
+ 111 |    0 |   129
+ 112 |    0 |  5209
+ 114 |    0 |  1261
+ 115 |    0 |  1898
+ 116 |    0 |   217
+ 117 |    0 |   141
+ 118 |    0 |   953
+ 119 |    0 |   114
+ 120 |    0 |   271
+ 121 |    0 |  1321
+ 122 |    0 |  1241
+ 127 | 4806 |  4806
+ 137 |   28 |    28
+ 141 |  257 |   257
+ 142 |  196 |   196
+ 144 | 1186 |  1186
+ 146 | 2124 |  2124
+ 148 | 1072 |  1072
+ 150 | 1013 |  1013
+ 158 |  673 |   673
+ 168 | 9966 |  9966
+ 172 |  235 |   235
+ 173 |  788 |   788
+ 178 | 2145 |  2145
+ 179 | 3006 |  3006
+ 180 | 1295 |  1295
+ 186 |  233 |   233
+ 187 | 1635 |  1635
+ 189 |   62 |    62
+ 190 |  618 |   618
+ 191 |   20 |    20
+
+
+
+ id  |             name              |      alt_name       | category_id 
+-----+-------------------------------+---------------------+-------------
+   1 | Outerwears                    | Outerwears          |            
+   2 | Playsuits & Jumpsuits         | Jumpsuits & Rompers |            
+  18 | Pants                         | Pants               |            
+  45 | Jeans                         | Jeans               |            
+  52 | Shorts                        | Shorts              |            
+  56 | Jeans                         | Jeans               |            
+  58 | Dresses                       | Dresses             |            
+  73 | Skirts                        | Skirts              |            
+  79 | T-Shirts & Tops               | T-Shirts & Top      |            
+  80 | Skirt                         | Skirts              |            
+  81 | Skorts                        | Shorts              |            
+  82 | Jeggings                      | Pants               |            
+  83 | Culottes                      | Pants               |            
+  84 | Trousers                      | Pants               |            
+  85 | Jumpsuits                     | Jumpsuits & Rompers |            
+  86 | Men - Hoodies & Sweatshirts   | Sweatshirts         |            
+  94 | Women - Suits & Separates     | Blazers & Suits     |            
+  95 | Men - Jumpers & Cardigans     | Cardigans           |            
+  96 | Men - Shirts                  | Shirts              |            
+  97 | Women - Swimwear & Beachwear  | Beachwear           |            
+  98 | Women - Skirts                | Skirts              |            
+  99 | Men - Loungewear              |                     |            
+ 100 | Women - Tops                  | T-Shirts & Top      |            
+ 101 | Men - Jeans                   | Jeans               |            
+ 102 | Men - Swimwear                |                     |            
+ 103 | Men - T-Shirts & Vests        | T-Shirts            |            
+ 104 | Women - Shorts                | Shorts              |            
+ 105 | Men - Trousers & Chinos       | Pants               |            
+ 106 | Men - Shorts                  | Shorts              |            
+ 107 | Women - Jumpers & Cardigans   | Cardigans           |            
+ 108 | Women - Coats & Jackets       | Jackets & Coats     |            
+ 109 | Men - Multipacks              |                     |            
+ 110 | Men - Underwear               | Underwears          |            
+ 111 | Women - Socks & Tights        | Socks               |            
+ 112 | Women - Dresses               | Dresses             |            
+ 113 | Women - Hoodies & Sweatshirts | Sweatshirts         |            
+ 114 | Men - Suits                   | Blazers & Suits     |            
+ 115 | Women - Lingerie & Nightwear  | Lingerie            |            
+ 116 | Men - Polo                    | T-Shirts            |            
+ 117 | Women - Multipacks            |                     |            
+ 118 | Women - Jumpsuits & Playsuits | Jumpsuits & Rompers |            
+ 119 | Men - Tracksuits              |                     |            
+ 120 | Men - Socks                   | Socks               |            
+ 121 | Women - Trousers & Leggings   | Pants               |            
+ 122 | Women - Jeans                 | Jeans               |            
+ 123 | Skinny Fit                    |                     |          52 -> 56
+ 124 | Tank Tops                     |                     |          52 -> 79
+ 125 | Crop Tops                     |                     |          52 -> 79
+ 126 | Casual Shorts                 |                     |          52 -> 79
+ 127 | T-Shirts                      |                     |          52 -> Create tshirt women
+ 128 | Straight Leg Pants            |                     |          52 -> 18
+ 129 | Blouses                       |                     |          52 -> 79
+ 130 | Leggings                      |                     |          52 -> 178
+ 131 | Mini Skirts                   |                     |          52 -> 73
+ 132 | Skinny Jeans                  | Jeans               |          52 -> 56
+ 133 | Mini Dresses                  |                     |          52 -> 58
+ 134 | Maxi Dresses                  |                     |          52 -> 58
+ 135 | Cropped Pants                 |                     |          52 -> 18
+ 136 | Regular Fit                   |                     |          52 -> 18
+ 137 | Jumpers & Cardigans           | Cardigans           |            
+ 138 | Jumpers                       |                     |         137
+ 139 | Cardigans                     | Cardigans           |         137
+ 140 | Slim Fit                      |                     |          18
+ 141 | Socks                         | Socks               |            
+ 142 | Ethnic Wear                   |                     |            
+ 143 | Printed Shirts                |                     |         142 
+ 144 | Hoodies & Sweatshirts         | Sweatshirts         |            
+ 145 | Hoodies                       |                     |         144
+ 146 | Shirts                        |                     |         144 -> Remove category id
+ 147 | Sweatshirts                   |                     |         144
+ 148 | Polos                         | T-Shirts            |            
+ 149 | Solid T-Shirts                |                     |         148 -> 127
+ 150 | Jackets & Coats               | Jackets & Coats     |            
+ 151 | Light Jackets                 |                     |         150
+ 152 | Denim Jackets                 |                     |         150
+ 153 | Winter Jackets                |                     |         150
+ 154 | Coats                         |                     |         150
+ 155 | Check Shirts                  |                     |         150 -> 146
+ 156 | Suit Jacket                   |                     |         150
+ 157 | Plain Shirts                  |                     |         150 -> 146
+ 158 | Petite                        |                     |            
+ 159 | Midi Dresses                  |                     |         158 -> 58
+ 160 | Bodycon Dresses               | Dresses             |         158 -> 58
+ 161 | Coloured Jeans                | Jeans               |         158 -> 45
+ 162 | Summer Dresses                |                     |         158 -> 58
+ 163 | Work Dresses                  |                     |         158 -> 58
+ 164 | Skinny Pants                  |                     |         158
+ 165 | Flare Jeans                   | Jeans               |         158
+ 166 | Midi Skirts                   |                     |         158
+ 167 | Printed Jeans                 | Jeans               |         158
+ 168 | Tops                          | Tops                |            
+ 169 | Maxi Skirts                   |                     |         168
+ 170 | Tailored Shorts               |                     |         168
+ 171 | Singlets                      |                     |         168
+ 172 | Blazers                       | Blazers & Suits     |            
+ 173 | Maternity                     |                     |            
+ 174 | Boyfriend Jeans               | Jeans               |         173
+ 175 | Party Dresses                 |                     |         173
+ 176 | Wide-Legged Pants             |                     |         173
+ 177 | Pencil Skirts                 |                     |         173
+ 178 | Pants & Leggings              | Pants               |            
+ 179 | Modern Ethnic Wear            |                     |            
+ 180 | Lingerie & Sleepwear          | Lingerie            |            
+ 181 | Evening Dresses               |                     |          58
+ 182 | Dress Shirts                  |                     |         146
+ 183 | Short Sleeve Shirts           |                     |         146
+ 184 | Denim Shirts                  |                     |         146
+ 185 | Graphic T-Shirts              |                     |         146
+ 186 | Underwear & Sleepwear         | Underwear           |            
+ 187 | Beachwear                     | Beachwear           |            
+ 188 | Long-Sleeved T-Shirts         |                     |         144
+ 189 | Plus Size                     |                     |            
+ 190 | Knitwear & Cardigans          | Cardigans           |            
+ 191 | Blazers & Suits               | Blazers & Suits     |            
+ 192 | Vest                          |                     |         191
+ 193 | Striped T-Shirts              |                     |         127

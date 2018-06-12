@@ -1,0 +1,118 @@
+ id  |             name              | gender_id | category_id 
+-----+-------------------------------+-----------+-------------
+   1 | Outerwears                    |         1 |            
+   2 | Playsuits & Jumpsuits         |         1 |            
+  18 | Pants                         |         1 |            
+  45 | Jeans                         |         1 |            
+  52 | Shorts                        |         1 |            
+  56 | Jeans                         |         2 |            
+  58 | Dresses                       |         1 |            
+  73 | Skirts                        |         1 |            
+  79 | T-Shirts & Tops               |         1 |            
+  80 | Skirt                         |         1 |            
+  81 | Skorts                        |         1 |            
+  82 | Jeggings                      |         1 |            
+  83 | Culottes                      |         1 |            
+  84 | Trousers                      |         1 |            
+  85 | Jumpsuits                     |         1 |            
+  86 | Men - Hoodies & Sweatshirts   |         2 |            
+  94 | Women - Suits & Separates     |         1 |            
+  95 | Men - Jumpers & Cardigans     |         2 |            
+  96 | Men - Shirts                  |         2 |            
+  97 | Women - Swimwear & Beachwear  |         1 |            
+  98 | Women - Skirts                |         1 |            
+  99 | Men - Loungewear              |         2 |            
+ 100 | Women - Tops                  |         1 |            
+ 101 | Men - Jeans                   |         2 |            
+ 102 | Men - Swimwear                |         2 |            
+ 103 | Men - T-Shirts & Vests        |         2 |            
+ 104 | Women - Shorts                |         1 |            
+ 105 | Men - Trousers & Chinos       |         2 |            
+ 106 | Men - Shorts                  |         2 |            
+ 107 | Women - Jumpers & Cardigans   |         1 |            
+ 108 | Women - Coats & Jackets       |         1 |            
+ 109 | Men - Multipacks              |         2 |            
+ 110 | Men - Underwear               |         2 |            
+ 111 | Women - Socks & Tights        |         1 |            
+ 112 | Women - Dresses               |         1 |            
+ 113 | Women - Hoodies & Sweatshirts |         1 |            
+ 114 | Men - Suits                   |         2 |            
+ 115 | Women - Lingerie & Nightwear  |         1 |            
+ 116 | Men - Polo                    |         2 |            
+ 117 | Women - Multipacks            |         1 |            
+ 118 | Women - Jumpsuits & Playsuits |         1 |            
+ 119 | Men - Tracksuits              |         2 |            
+ 120 | Men - Socks                   |         2 |            
+ 121 | Women - Trousers & Leggings   |         1 |            
+ 122 | Women - Jeans                 |         1 |            
+ 123 | Skinny Fit                    |         2 |          52 -> 56
+ 124 | Tank Tops                     |         1 |          52 -> 79
+ 125 | Crop Tops                     |         1 |          52 -> 79
+ 126 | Casual Shorts                 |         1 |          52 -> 79
+ 127 | T-Shirts                      |         1 |          52 -> Create tshirt women
+ 128 | Straight Leg Pants            |         1 |          52 -> 18
+ 129 | Blouses                       |         1 |          52 -> 79
+ 130 | Leggings                      |         1 |          52 -> 178
+ 131 | Mini Skirts                   |         1 |          52 -> 73
+ 132 | Skinny Jeans                  |         1 |          52 -> 45
+ 133 | Mini Dresses                  |         1 |          52 -> 58
+ 134 | Maxi Dresses                  |         1 |          52 -> 58
+ 135 | Cropped Pants                 |         1 |          52 -> 18
+ 136 | Regular Fit                   |         2 |          52 -> create pants man
+ 137 | Jumpers & Cardigans           |         2 |            
+ 138 | Jumpers                       |         2 |         137
+ 139 | Cardigans                     |         2 |         137
+ 140 | Slim Fit                      |         2 |          18 -> create pants man
+ 141 | Socks                         |         2 |            
+ 142 | Ethnic Wear                   |         2 |            
+ 143 | Printed Shirts                |         2 |         142 -> 146
+ 144 | Hoodies & Sweatshirts         |         1 |            
+ 145 | Hoodies                       |         1 |         144
+ 146 | Shirts                        |         1 |         144 -> remove category id
+ 147 | Sweatshirts                   |         1 |         144
+ 148 | Polos                         |         2 |            
+ 149 | Solid T-Shirts                |         2 |         148 -> create T-shirt man
+ 150 | Jackets & Coats               |         2 |            
+ 151 | Light Jackets                 |         2 |         150
+ 152 | Denim Jackets                 |         2 |         150
+ 153 | Winter Jackets                |         2 |         150
+ 154 | Coats                         |         2 |         150
+ 155 | Check Shirts                  |         2 |         150 -> 146
+ 156 | Suit Jacket                   |         2 |         150 -> 191
+ 157 | Plain Shirts                  |         2 |         150 -> 146
+ 158 | Petite                        |         1 |            
+ 159 | Midi Dresses                  |         1 |         158 -> 58
+ 160 | Bodycon Dresses               |         1 |         158 -> 58
+ 161 | Coloured Jeans                |         1 |         158 -> 45
+ 162 | Summer Dresses                |         1 |         158 -> 58
+ 163 | Work Dresses                  |         1 |         158 -> 58
+ 164 | Skinny Pants                  |         1 |         158 -> 18
+ 165 | Flare Jeans                   |         1 |         158 -> 45
+ 166 | Midi Skirts                   |         1 |         158 -> 80
+ 167 | Printed Jeans                 |         1 |         158 -> 45
+ 168 | Tops                          |         1 |            
+ 169 | Maxi Skirts                   |         1 |         168 -> 80
+ 170 | Tailored Shorts               |         1 |         168 -> 52
+ 171 | Singlets                      |         1 |         168 -> create T-shirt man
+ 172 | Blazers                       |         1 |            
+ 173 | Maternity                     |         1 |            
+ 174 | Boyfriend Jeans               |         1 |         173 -> 45
+ 175 | Party Dresses                 |         1 |         173 -> 58
+ 176 | Wide-Legged Pants             |         1 |         173 -> 178
+ 177 | Pencil Skirts                 |         1 |         173 -> 80
+ 178 | Pants & Leggings              |         1 |            
+ 179 | Modern Ethnic Wear            |         1 |            
+ 180 | Lingerie & Sleepwear          |         1 |            
+ 181 | Evening Dresses               |         1 |          58
+ 182 | Dress Shirts                  |         2 |         146
+ 183 | Short Sleeve Shirts           |         2 |         146
+ 184 | Denim Shirts                  |         2 |         146
+ 185 | Graphic T-Shirts              |         2 |         146 -> create T-shirt man
+ 186 | Underwear & Sleepwear         |         2 |            
+ 187 | Beachwear                     |         1 |            
+ 188 | Long-Sleeved T-Shirts         |         2 |         144 -> create T-shirt man
+ 189 | Plus Size                     |         1 |            
+ 190 | Knitwear & Cardigans          |         1 |            
+ 191 | Blazers & Suits               |         2 |            
+ 192 | Vest                          |         2 |         191
+ 193 | Striped T-Shirts              |         2 |         127 -> create T-shirt man

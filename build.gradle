@@ -1,0 +1,84 @@
+buildscript {
+    repositories {
+        mavenLocal()
+        maven { url "https://repo.grails.org/grails/core" }
+    }
+    dependencies {
+        classpath "org.grails:grails-gradle-plugin:$grailsVersion"
+        classpath "com.bertramlabs.plugins:asset-pipeline-gradle:2.14.1"
+        classpath "com.bertramlabs.plugins:sass-asset-pipeline:2.14.1"
+        classpath "org.grails.plugins:hibernate5:${gormVersion-".RELEASE"}"
+    }
+}
+
+version "0.1"
+group "db"
+
+apply plugin:"eclipse"
+apply plugin:"idea"
+apply plugin:"war"
+apply plugin:"org.grails.grails-web"
+apply plugin:"org.grails.grails-gsp"
+apply plugin:"asset-pipeline"
+apply plugin: 'com.bertramlabs.asset-pipeline'
+
+assets {
+    minifyJs = true
+    minifyCss = true
+     configOptions = [
+      less: [
+        compiler: 'standard'
+      ]
+    ]
+    // includes = ["fonts/*"]
+    excludes = ['**/*.scss']
+    minifyOptions = [
+    languageMode: 'ES6',
+    targetLanguage: 'ES5', //Can go from ES6 to ES5 for those bleeding edgers
+    optimizationLevel: 'SIMPLE',
+    angularPass: true // Can use @ngInject annotation for Angular Apps
+  ]
+}
+
+repositories {
+    mavenLocal()
+    maven { url "https://repo.grails.org/grails/core" }
+}
+
+dependencies {
+    compile "org.springframework.boot:spring-boot-starter-logging"
+    compile "org.springframework.boot:spring-boot-autoconfigure"
+    compile "org.grails:grails-core"
+    compile "org.springframework.boot:spring-boot-starter-actuator"
+    compile "org.springframework.boot:spring-boot-starter-tomcat"
+    compile "org.grails:grails-dependencies"
+    compile "org.grails:grails-web-boot"
+    compile "org.grails.plugins:cache"
+    compile "org.grails.plugins:scaffolding"
+    compile "org.grails.plugins:hibernate5"
+    compile "org.hibernate:hibernate-core:5.1.3.Final"
+    compile "org.hibernate:hibernate-ehcache:5.1.3.Final"
+    console "org.grails:grails-console"
+    profile "org.grails.profiles:web"
+    runtime "com.bertramlabs.plugins:asset-pipeline-grails:2.14.1"
+    runtime "com.h2database:h2"
+    testCompile "org.grails:grails-plugin-testing"
+    testCompile "org.grails.plugins:geb"
+    testRuntime "org.seleniumhq.selenium:selenium-htmlunit-driver:2.47.1"
+    testRuntime "net.sourceforge.htmlunit:htmlunit:2.18"
+
+
+    runtime 'org.postgresql:postgresql:9.4.1211.jre7'
+    compile 'org.grails.plugins:spring-security-core:3.1.2'
+    compile "org.grails.plugins:grails-http-builder-helper:1.0.0"
+    compile "org.grails.plugins:quartz:2.0.9"
+    assets 'com.bertramlabs.plugins:less-asset-pipeline:2.14.1'
+    assets 'com.bertramlabs.plugins:sass-asset-pipeline:2.14.1'
+}
+
+bootRun {
+    jvmArgs('-Dspring.output.ansi.enabled=always')
+    addResources = true
+}
+
+
