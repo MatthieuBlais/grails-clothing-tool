@@ -107,7 +107,7 @@ environments:
     development:
         dataSource:
             dbCreate: update
-            url: YOUR_DATABASE_URL
+            url: YOUR_POSTGRES_DATABASE_URL
             username: YOUR_DATABASE_USERNAME
             password: YOUR_PASSWORD
             driverClassName: org.postgresql.Driver
