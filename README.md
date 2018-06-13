@@ -34,7 +34,33 @@ Installation:
 
 DONE!
 
+About git, do not push any credentials in application.yml and boostrap.groovy. 
+Ignore all changes with git update-index --assume-unchanged <file>
 
 ## 3. More details?
 
 Check the documentation included directly in the app.
+
+Few tools:
+
+- SQL query: Used to analyze the data in AWS RDS. 
+
+![alt text](https://raw.githubusercontent.com/MatthieuBlais/grails-clothing-tool/master/doc/sql_query.png)
+
+
+- Image Labelling: To identify clothes on the picture
+
+![alt text](https://raw.githubusercontent.com/MatthieuBlais/grails-clothing-tool/master/doc/label_image.png)
+
+- Data Cleaning: Clean existing labelled image. Some labelling is done automatically with an existing model. The interface allows the user to clean misclassified images and/or adjust the coordinates of detected clothes.
+
+![alt text](https://raw.githubusercontent.com/MatthieuBlais/grails-clothing-tool/master/doc/cleaning.png)
+
+- API Documentation: To synchronize work
+
+![alt text](https://raw.githubusercontent.com/MatthieuBlais/grails-clothing-tool/master/doc/api.png)
+
+
+And more:
+- Similarity algoi
+
