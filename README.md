@@ -1,7 +1,5 @@
 # Meow
 
-# Meow
-
 ## 1. Why Meow?
 
 Because I lack of inspiration and that's the only thing that came to my mind.
