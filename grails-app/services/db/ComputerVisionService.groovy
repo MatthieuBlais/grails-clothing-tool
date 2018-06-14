@@ -164,6 +164,7 @@ class ComputerVisionService {
         }
         println productId
         def similarItems = SimilarityScores.findAllByProduct(productId)
+        println similarItems
         def mainProduct = Products.findById(productId) 
         def similarOutput = []
         similarItems.each{

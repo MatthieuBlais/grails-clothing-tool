@@ -56,22 +56,24 @@
             <div class="container">
               <ul class="list-group">
                 <g:each var="similarProduct" in="${similar}">
-                  <li class="list-group-item">
-                       <h6><a href="${product.url}">${similarProduct.product.name}</a></h6>
-                       <div>
-                         <dt>SCORE: ${similarProduct.score.score}</dt>
-                         <dd>ID: ${similarProduct.product.id}<br/>
-                         WEBSITE: ${similarProduct.product.website.name}<br/>
-                         PRICE: ${similarProduct.product?.currentPrice?.currency}${similarProduct.product?.currentPrice?.value} <g:if test="${similarProduct.product?.currentDiscount}">CURRENT DISCOUNT: ${similarProduct.product?.currentDiscount?.currency}${similarProduct.product?.currentDiscount?.value}</g:if></dd>
-                       </div>
-                       <div class="row p-2">
-                         <g:each var="image" in="${similarProduct.product.images}">
-                            <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 p-1">
-                              <img style="max-width:100%; max" src="${image.url}" class="img-responsive img-center img-gallery">
-                            </div>
-                         </g:each>
-                       </div>
-                  </li>
+                  <g:if test='${similarProduct.product}'>
+                    <li class="list-group-item">
+                         <h6><a href="${similarProduct.product.url}">${similarProduct.product.name}</a></h6>
+                         <div>
+                           <dt>SCORE: ${similarProduct.score.score}</dt>
+                           <dd>ID: ${similarProduct.product.id}<br/>
+                           WEBSITE: ${similarProduct.product.website.name}<br/>
+                           PRICE: ${similarProduct.product?.currentPrice?.currency}${similarProduct.product?.currentPrice?.value} <g:if test="${similarProduct.product?.currentDiscount}">CURRENT DISCOUNT: ${similarProduct.product?.currentDiscount?.currency}${similarProduct.product?.currentDiscount?.value}</g:if></dd>
+                         </div>
+                         <div class="row p-2">
+                           <g:each var="image" in="${similarProduct.product.images}">
+                              <div class="col-lg-2 col-md-3 col-sm-4 col-xs-6 p-1">
+                                <img style="max-width:100%; max" src="${image.url}" class="img-responsive img-center img-gallery">
+                              </div>
+                           </g:each>
+                         </div>
+                    </li>
+                  </g:if>
                 </g:each>
               </ul>
             </div>

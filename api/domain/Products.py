@@ -385,6 +385,7 @@ class Products(object):
 			if size["value"]!=None:
 				value = size["value"].strip().upper().replace(" IN", "").replace("SIZE ", "")
 			else:
+				return existing_sizes, [], True
 				if "variant" in size.keys():
 					if str(size["variant"]) in existing_variants.keys():
 						value = existing_variants[str(size["variant"])]["size"]
